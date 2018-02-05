@@ -1,0 +1,16 @@
+{
+  "entrypoints" : [
+    {
+      "name" : "Home Page",
+      "file" : "HomePage.html"
+    },
+    {
+      "name" : "Product Grid Page",
+      "file" : "PGP.html"
+    },
+    {
+      "name" : "Product Detail Page",
+      "file" : "PDP.html"
+    }
+  ]
+}
