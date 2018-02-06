@@ -2,7 +2,7 @@
   "entrypoints" : [
     {
       "name" : "Home Page",
-      "file" : "index.html"
+      "file" : "HomePage.html"
     },
     {
       "name" : "Product Grid Page",
@@ -11,6 +11,10 @@
     {
       "name" : "Product Detail Page",
       "file" : "PDP.html"
+    },
+    {
+      "name" : "Improved Home Page",
+      "file" : "Improved-HomePage.png"
     }
   ]
 }
