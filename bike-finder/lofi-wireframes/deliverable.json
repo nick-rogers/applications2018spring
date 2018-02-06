@@ -2,7 +2,7 @@
   "entrypoints" : [
     {
       "name" : "Home Page",
-      "file" : "HomePage.html"
+      "file" : "index.html"
     },
     {
       "name" : "Product Grid Page",
