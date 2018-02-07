@@ -15,6 +15,18 @@
     {
       "name" : "Improved Home Page",
       "file" : "Improved-HomePage.png"
+    },
+    {
+      "name" : "Newest Home Page",
+      "file" : "NewHomePage.html"
+    },
+    {
+      "name" : "Product Thumbnail",
+      "file" : "thumbnail.html"
+    },
+    {
+      "name" : "Newest Product Grid Page",
+      "file" : "newPGP.html"
     }
   ]
 }
