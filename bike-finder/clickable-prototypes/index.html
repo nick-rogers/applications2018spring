@@ -7,13 +7,13 @@
     	body {
     		margin: 0;
     		text-align: center;
-    		margin-left: 15%;
     	}
 
     	.full {
     		display: block;
-    		width: 900px;
-    		height: 2200px;
+    		width: 100%;
+    		height: 0;
+    		padding-bottom: 250%;
     		background-image: url(home-page.png);
     		background-size: 100% 100%;
     	}
@@ -21,38 +21,54 @@
     	.anchor {
     		display: block;
     		position: absolute;
-    		width: 120px;
+    		width: 8vw;
     		height: 20px;
     		background-color: yellow;
-    		margin-left: 615px;
-    		opacity: 0.2;
-    		margin-top: 20px;
+    		margin-left: 46%;
+    		opacity: 0.1;
+    		margin-top: 2.7%;
     	}
 
-    	.anchor:hover {
-    		opacity: 1;
+    	.anchor-bar {
+    		display: block;
+    		position: absolute;
+    		width: 13.2vw;
+    		height: 1.7vw;
+    		background-color: yellow;
+    		margin-left: 68.2%;
+    		opacity: 0.1;
+    		margin-top: 2.5%;
     	}
 
-    	.bike-anchor {
+    .bike-anchor {
         display: block;
         position: absolute;
-        width: 200px;
-        height: 220px;
+        width: 22vw;
+        height: 26vw;
         background-color: yellow;
-        margin-left: 80px;
-        opacity: 0.2;
-        margin-top: 690px;
+        margin-left: 9%;
+        opacity: 0.1;
+        margin-top: 78%;
       }
 
-      .bike-anchor:hover {
-        opacity: 1;
+      body:active .anchor {
+      	opacity: 0.8;
+      }
+
+      body:active .bike-anchor {
+      	opacity: 0.8;
+      }
+
+      body:active .anchor-bar {
+      	opacity: 0.8;
       }
 
 
     </style>
   </head>
   <body>
-  	<a class="anchor" href="pgp.html"></a>
+  	<a class="anchor" href="index.html"></a>
+  	<a class="anchor-bar" href="pgp.html"></a>
   	<a class="bike-anchor" href="pdp.html"></a>
   	<a class="full"></a>
   
