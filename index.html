@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mobile-Apartment-Promotion</title>
+    <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 600px)' href='mobile.css' />
+    <link rel='stylesheet' media='screen and (min-width: 600px)' href='desktop.css' />
+  </head>
+  <body>
+    <nav class="navigation">
+       <a class="home"></a> 
+    </nav>
+    <div class="main">
+        <div class="lines"></div>
+        </div>
+        <div class="inner">
+            <div class="top sec">
+                <div class="header"></div>
+            </div>
+            <div class="left sec">
+                <h2 class="sec-header eh">ENTER HERE</h2>
+                <fieldset class="the-form">
+                  <input id="first" class="inputs" type="text" name="First Name" placeholder="First Name"><br>
+                  <input class="inputs" type="text" name="Last Name" placeholder="Last Name"><br>
+                  <input class="inputs" type="text" name="Email" placeholder="Email"><br>
+                  <input class="submit" type="submit" value="SUBMIT" onclick="submitIt()">
+                </fieldset>
+
+                <script>
+
+                    var num = 1;
+
+                    function submitIt(){
+                        if(num == 1){
+                            document.getElementById('bl1').style.display = 'block';
+                            document.getElementById('bl2').style.display = 'none';
+                            document.getElementById('bl3').style.display = 'none';
+                            num  = 2;
+                        }
+                        else if(num == 2){
+                            document.getElementById('bl1').style.display = 'none';
+                            document.getElementById('bl2').style.display = 'block';
+                            document.getElementById('bl3').style.display = 'none';
+                            num = 3;
+                        }
+                        else {
+                            document.getElementById('bl1').style.display = 'none';
+                            document.getElementById('bl2').style.display = 'none';
+                            document.getElementById('bl3').style.display = 'block';
+                            num = 1;
+                        }
+                    }
+
+                </script>
+
+                <div class="correct bl" id="bl1">
+                    <h4>Thanks for the submission!<br/>
+                    We'll notify you on the results!</h4>
+                </div>
+                <div class="oops bl" id="bl2">
+                    <h4>Oops! you've already submitted!<br/>
+                    We'll notify you on the results!</h4>
+                </div>
+                <div class="wrong bl" id="bl3">
+                    <h4>Oops! You're missing something!<br/>
+                    Please fill out the full form!</h4>
+                </div>
+            </div>
+            <div class="right sec">
+                <h2 class="sec-header ab">ABOUT EZ PROPERTIES</h2> 
+                <p class="about-text">E.Z Properties, one of St. Louis’ fastest-
+                growing property holders, is hold-
+                ing a sweapstakes for 1 year’s rent at
+                one of its convenient locations neigh-
+                boring the Washington University 
+                campus!</p>     
+                <h2 class="twelve"><span>12</span><br/>
+                DAYS UNTIL<br/>SWEEPSTAKES<br/>CLOSES</h2>
+                <div class="social">
+                    <div class="soc s1"></div>
+                    <div class="soc s2"></div>
+                    <div class="soc s3"></div>
+                </div>
+            </div>
+            <div class="bottom sec">
+                <div class="map-header">
+                    <h2 class="sec-header check">CHECK OUT OUR PROPERTIES</h2>
+                    <p>E.Z Properties' locations surround<br/>
+                    Washington University's Campus,<br/>
+                    all within a short walk. The homes are<br/>
+                    historical but modern and re-modeled<br/>
+                    on the interior.</p>
+                </div>
+                <div class="house h1"></div>
+                <div class="house h2"></div> 
+                <div class="house h3"></div> 
+                <div class="house h4"></div>
+                <div class="theMap"></div> 
+                <div class="location">
+                    <div class="img-house ih1"></div>
+                    <p>1000 WashU Street</p>
+                </div>  
+                <div class="location">
+                    <div class="img-house ih2"></div>
+                    <p>800 McPherson Avenue</p>
+                </div>   
+                <div class="location">
+                    <div class="img-house ih3"></div>
+                    <p>40 Rogers Blvd</p>
+                </div>   
+                <div class="location">
+                    <div class="img-house ih4"></div>
+                    <p>700 Waterman Blvd</p>
+                </div>     
+            </div>
+        </div>
+
+    </div>
+  
+  </body>
+</html>
